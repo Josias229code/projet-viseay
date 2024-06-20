@@ -69,8 +69,8 @@ nav button{
 /* Ici commence mon hero-section */
 
 .hero-section{
-    width: auto;
-    height: 450px;
+    width: 100%;
+    height: 70vh;
     background-image: url(images/image-back.png);
     background-size: cover;
 }
