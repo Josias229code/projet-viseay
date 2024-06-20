@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 190.35px;
+    height: 50.12px;
+    
+}
+
+nav{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.special{
+    display: flex;
+    gap: 18px;
+}
+
+.special a{
+    color: rgba(0, 0, 0, 0.658);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+nav button{
+    background-color: #12559E;
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Ici commence mon hero-section */
+
+.hero-section{
+    width: auto;
+    height: 450px;
+    background-image: url(image-back.png);
+    background-size: cover;
+}
+
+
+.hero-section button{
+    background-color: #12559E;
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 100px;
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+
+.herotext button{
+    padding: 12px 24px;
+}
+
+.herotext button:hover{
+    cursor: pointer;
+}
+
+.herotext h1{
+    color: white;
+    
+    font-size: 50px;
+    margin-right: 450px;
+    
+}
+
+/* Ici est mon wrapper */
+.wrapper{
+    padding: 150px;
+}
+
+.wrap-image{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.wrap-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.wrap-text h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.wrap-text .wrap-lign{
+    border-bottom: 1px solid black;
+    width: 105px;
+}
+
+.wrap-image img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* Ici commence mon usp */
+
+.usp-back{
+    display: flex;
+    flex-direction: column;
+}
+
+.usp-back img{
+    width: auto;
+    height: 370px;
+}
+
+.usp-back .bottom{
+    height: 95px;
+    background-color: #12559E;
+}
+
+.usp-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 550px;
+    gap: 50px;
+    padding: 40px 30px;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    margin-top: -150px;
+}
+
+
+
+.small-text p{
+    font-size: 16px;
+}
+
+.usp-text .light{
+    border-bottom: 1px solid black;
+    width: 70px;
+    margin-top: 10px;
+}
+
+/* Ici commence mon main */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main .important{
+    padding: 100px 0;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+.contain img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.description{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+    
+}
+
+.description h1{
+  
+    font-size: 35px;
+
+}
+
+.description p{
+    font-size: 17px;
+}
+
+
+/* Ici commence mon others */
+
+.others{
+    
+    margin-top: 150px;
+}
+.other-body{
+    background-color: #180294;
+}
+
+.description2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px 0;
+}
+
+.other-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.other-text p{
+    font-size: 15px;
+}
+
+
+.other-image img{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+/* Ici est mon tableau */
+
+.Question:hover{
+    cursor: pointer;
+}
+
+.Question h3{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.questbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.quest{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    outline: none;
+  
+}
+
+.questbody .speciale{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.questbody .speciale1{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Ici commence mon formulaire */
+.formular{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+.form-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 90px 0;
+}
+
+.fone img{
+    width: 50px;
+    height: 50px;
+}
+
+.renseillement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.visaey-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.fone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.clientinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input , textarea{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"]{
+    background-color: #12559E;
+    color: white;
+    
+}
+
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+/* mon footer commence ici */
+
+footer{
+    padding: 60px 0;
+    background-color: #0c0533;
+    margin-top: 70px;
+}
+
+
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top-lien{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.top-lien a{
+    color: white;
+}
+
+.text-lien p{
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.icones:hover{
+    cursor: pointer;
+}
+
+.icones img{
+    width: 30px;
+    height: 30px;
+}
